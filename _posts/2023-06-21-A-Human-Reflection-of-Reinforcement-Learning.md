@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Dance of Life: A Human Reflection of Reinforcement Learning Part 1"
-image: "/posts/RL primary BG_1.png"
+image: "/img/posts/RL primary BG_1.png"
 tags: [Reinforecement Learning, Human Behavior]
 ---
 
@@ -40,13 +40,13 @@ Realizing that our actions can either be deterministic or probabilistic, we can 
 
 This delicate balance between sticking to routines and breaking the mould from time to time is an absolute essential to find out what works and what doesn’t work for us. This can range from choosing something new on the menu at your favourite restaurant to even quitting your dead-end job to pull yourself out of the rat race. This intertwined dance of **exploration** and **exploitation** is what we will teach our RL agent as well. For every state, the RL agent will have a choice between choosing the action that it is supposed to take based on its past experiences or a random action from all available actions just to see what’s out there.
 
-[Agent deciding between exploration and exploitation](img/posts/RL primary BG_2_.png)
+[Agent deciding between exploration and exploitation](/img/posts/RL primary BG_2_.png)
 
 Doubling down on our philosophical approach to this blog, let’s talk about the anticipation of potential outcomes of our decisions. We weigh the future benefits of investing our surplus versus the instant gratification of a weekend getaway to the Amalfi Coast. I mean who doesn’t want to see the mountains plunge into the sea on the coasts of Italy? But theoretically, you could hold off on that getaway, invest that money to reap the benefits further down the line. This way of assessing potential future rewards is what’s known as **value functions** in RL. The value function is an efficient way to determine the value of being in any given state by measuring the potential future rewards we may get from being in that state. All these life hacks we see on our social media platforms on landing your dream job, having a 5-figure side hustle, retiring at 30, etc. are simply their own value functions laid out in a human digestible form. But remember, our own current states may widely vary from theirs and our environments might be miles apart from theirs. Something to remember the next time you come across such posts. This also reiterates the importance of trying to create an environment for our RL agent as close as possible to the real environment that the agent will be deployed in.
 
 Now that we have seen what constitutes an agent and what drives an agent aka, the inner workings of our actions, what we do and why we do it, let’s focus a little on the environment. Let us assume that the field agent has mastered complete control over their body & mind, either by acquiring all the infinity stones, or by popping down one of those NZT-48 pills or even through meditation. Does this mean, any and all the actions taken by our agent will always bear fruit as intended (even the exploring actions)? Not necessarily. In reality, there is no such theory of everything that proves right for every situation. Least not yet. This gives rise to situations where our environment may not reward us the way we expect it to. For instance, the same route that we take back home after a long day which was originally chosen for its traffic-free characteristics may trap us for an hour or so on the road due to an unseen factor like accidents, diversions, protests, etc. Hence, we need to step into the world of probability where the chances of getting stuck from traffic are slim, but never zero. Similarly, in order to mimic the real life environment for our RL agent to a fair degree, we can create a **stochastic environment** where the output of a said action may result in a number of new states with each having its own probabilistic distribution as opposed to a **deterministic environment** that always result in only 1 sate provided a given action.
 
-![Chess board with pieces](img/posts/RL primary BG_3.png)
+![Chess board with pieces](/img/posts/RL primary BG_3.png)
 
 For example, a chess environment is always deterministic as in when you move your pawn from D2 to D4, that pawn with 100% certainty will land in D4. It cannot trip or sneak its way into any other space. On the other hand, a self-driving car should always consider factors ranging anything from the behaviour of other drivers, traffic lights, and pedestrians to icy roads, oil spills or even an alien invasion down the road.
 
