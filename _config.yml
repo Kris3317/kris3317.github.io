@@ -8,8 +8,8 @@ plugins:
 
 #-------------------------------
 # General Site Settings
-title: <span style="color:#f58506">Kris </span>Michael D Silva
-description: "A problem solving, math loving, results-oriented Data Scientist with a strong passion for mathematics, having 5 years of experience in designing and implementing data-driven solutions in both the finance and cybersecurity industries. Proven track record of success in portfolio analysis, anomaly detection and pattern recognition by leveraging a versatile skill set to generate actionable insights and drive business growth."
+title: <span style="color:#f58506"> Kris </span> Michael D Silva
+description: "A problem solving, math loving, results-oriented Data Scientist with a strong passion for mathematics, having 5 years of experience in designing and implementing data-driven solutions in finance and cybersecurity industries. Proven track record of success in portfolio analysis, anomaly detection and pattern recognition by leveraging a versatile skill set to generate actionable insights and drive business growth."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
